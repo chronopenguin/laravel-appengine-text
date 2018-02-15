@@ -11,3 +11,15 @@ env_variables:
   APP_LOG: errorlog
   APP_KEY: base64:W/660CXQ+gMWdK+LgdIrIL6ojNMeCjwvsvsD0tq8hCw=
   STORAGE_DIR: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  # database configs
+  DB_CONNECTION: pgsql
+  DB_HOST: localhost
+  DB_DATABASE: db_rentuffmain
+  DB_USER: rentuffmain
+  DB_PASSWORD: rentuffpinjam
+  DB_SOCKET: "/cloudsql/rentuff-research:asia-south1:rentuff-laravel"
+
+beta_settings:
+  cloud_sql_instances: "rentuff-research:asia-south1:rentuff-laravel"
