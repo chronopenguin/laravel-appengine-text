@@ -1,0 +1,13 @@
+runtime: php
+env: flex
+
+runtime-config:
+  document-root: public
+
+skip_files:
+  - .env
+
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY: base64:W/660CXQ+gMWdK+LgdIrIL6ojNMeCjwvsvsD0tq8hCw=
+  STORAGE_DIR: /tmp
