@@ -1,8 +1,8 @@
 runtime: php
 env: flex
 
-runtime-config:
-  document-root: public
+runtime_config:
+  document_root: public
 
 skip_files:
   - .env
